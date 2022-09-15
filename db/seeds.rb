@@ -77,7 +77,7 @@ cat1.products.create!({
   As a defense mechanism the Lion Grapevine grows small thorns.
   They rely on wind pollination to reproduce. Once pollinated, they grow small, inedible fruits.",
   image: open_asset('plante_3.jpg'),
-  quantity: 4,
+  quantity: 0,
   price: 34.49
 })
 
@@ -138,7 +138,7 @@ cat2.products.create!({
   As a defense mechanism the Sweet Hop relies mostly on its surroundings to survive.
   They rely on self pollination to reproduce. Once pollinated, they grow fairly large, delicious nuts.",
   image: open_asset('plante_7.jpg'),
-  quantity: 40,
+  quantity: 0,
   price: 64.49
 })
 
