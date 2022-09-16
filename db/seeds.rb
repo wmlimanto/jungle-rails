@@ -21,6 +21,13 @@ end
 
 # Let's do this ...
 
+user1 = User.create!({
+  first_name: 'Dave',
+  last_name: 'Chapelle',
+  email: 'dchapelle@gmail.com',
+  password: '$2a$12$TjSK4VDevx2uPXF3cMZviOnCYBRIbcqXNmGZwPR5BBLzVgY3LqRfi'
+})
+
 ## CATEGORIES
 
 puts "Finding or Creating Categories ..."
